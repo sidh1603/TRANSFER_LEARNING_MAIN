@@ -1,0 +1,13 @@
+prefix=/Users/sid/Documents/DL-ANN/Transfer_learning_main/env
+exec_prefix=/Users/sid/Documents/DL-ANN/Transfer_learning_main/env
+libdir=/Users/sid/Documents/DL-ANN/Transfer_learning_main/env/lib
+sharedlibdir=/Users/sid/Documents/DL-ANN/Transfer_learning_main/env/lib
+includedir=/Users/sid/Documents/DL-ANN/Transfer_learning_main/env/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.12
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
